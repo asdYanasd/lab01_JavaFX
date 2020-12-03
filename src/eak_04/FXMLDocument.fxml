@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eak_04.FXMLDocumentController">
+   <children>
+      <Label fx:id="a" layoutX="97.0" layoutY="79.0" prefHeight="17.0" prefWidth="28.0" text="a=" />
+      <Label fx:id="b" layoutX="97.0" layoutY="124.0" prefHeight="17.0" prefWidth="28.0" text="b=" />
+      <Button fx:id="buttonClear" layoutX="218.0" layoutY="298.0" mnemonicParsing="false" onAction="#buttonClear" text="очистить" />
+      <Button fx:id="buttonExit" layoutX="80.0" layoutY="298.0" mnemonicParsing="false" onAction="#buttonExit" text="выход" />
+      <Button fx:id="buttonMath" layoutX="381.0" layoutY="298.0" mnemonicParsing="false" onAction="#buttonMath" text="выполнить" />
+      <TextField fx:id="textField_A" layoutX="111.0" layoutY="75.0" />
+      <TextField fx:id="textField_B" layoutX="111.0" layoutY="120.0" />
+      <TextField fx:id="textField_X" layoutX="111.0" layoutY="165.0" />
+      <Label layoutX="97.0" layoutY="169.0" text="x=" fx:id="x" />
+      <ImageView fx:id="imageView" fitHeight="113.0" fitWidth="258.0" layoutX="291.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/icon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label_otvet" layoutX="381.0" layoutY="221.0" prefHeight="36.0" prefWidth="107.0" text="\\" />
+   </children>
+</AnchorPane>
